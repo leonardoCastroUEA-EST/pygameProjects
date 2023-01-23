@@ -99,7 +99,7 @@ def move_ball():
         score1_img = pygame.image.load("assets/score/" + str(score1) + ".png")
 
 def draw():
-    if score1 or score2 < 10:
+    if score1 or score2 < 9:
         window.blit(field, (0, 0))
         window.blit(player1, (50, player1_y))
         window.blit(player2, (1150, player2_y))
